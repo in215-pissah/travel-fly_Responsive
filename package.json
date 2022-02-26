@@ -1,0 +1,19 @@
+{
+  "name": "homework-four",
+  "version": "1.0.0",
+  "description": "Node Sass Complier",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "complie:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}
