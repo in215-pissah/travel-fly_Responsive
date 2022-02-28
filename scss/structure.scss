@@ -16,39 +16,35 @@ h6,
 p {
   margin-bottom: 16px;
 }
+// Colors
+//#FFFFFF;
+//#79ADDC;
+//#000000
 
-.wrapper {
-  // width: 1000px;
-  // min-height: 800px;
-  width: 70%;
-  min-height: 500px;
-  background-color: coral;
-  margin: 0 auto;
-
-  .box {
-    width: 50%;
-    height: 200px;
-    background-color: blue;
-  }
-
-  .media-box {
-    width: 600px;
-    height: 100px;
-    background-color: gold;
-  }
+// @font-face {
+//   font-family: GillSans;
+//   src: url(../css/fonts/GillSans.ttc);
+// }
+@font-face {
+  font-family: ProximaNova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url(../css/fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
 }
 
-@media screen and (max-width: 700px) and (min-width: 300px) {
-  .wrapper {
-    background-color: red;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ProximaNovaThin;
 }
 
-@media all and (max-width: 800px) {
-  .wrapper {
-    // background-color: green;
-    .media-box {
-      width: 300px;
-    }
-  }
+p,
+a {
+  font-family: $GillSans;
+  font-weight: bold;
 }

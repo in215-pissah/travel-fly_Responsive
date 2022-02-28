@@ -1,0 +1,38 @@
+nav {
+  margin-left: 150px;
+  margin-bottom: 20.5px;
+  // margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 950px;
+  .links {
+    img {
+      margin-right: 300px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #000000;
+    }
+  }
+}
+hr {
+  margin-left: 150px;
+  margin-bottom: 69.5px;
+  width: 980px;
+  //   border: 2px solid #ffffff;
+}
+
+footer {
+  width: $site-width;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5px;
+}
